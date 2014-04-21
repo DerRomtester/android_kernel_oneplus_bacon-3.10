@@ -409,5 +409,3 @@ static void __exit pic16f_fastcg_exit(void)
 	i2c_del_driver(&pic16f_fastcg_driver);
 }
 module_exit(pic16f_fastcg_exit);
-
-
